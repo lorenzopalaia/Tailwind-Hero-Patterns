@@ -1,5 +1,5 @@
 {
-    "name": "tailwindcss-hero-patterns",
+    "name": "tailwind-hero-patterns",
     "version": "1.0.0",
     "description": "All heropatterns.com patterns as TailwindCSS classes",
     "main": "src/index.js",
@@ -11,7 +11,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/lorenzopalaia/tailwindcss-hero-patterns.git"
+        "url": "git+https://github.com/lorenzopalaia/tailwind-hero-patterns.git"
     },
     "keywords": [
         "tailwindcss",
@@ -23,9 +23,9 @@
         "tailwind"
     ],
     "bugs": {
-        "url": "https://github.com/lorenzopalaia/tailwindcss-hero-patterns/issues"
+        "url": "https://github.com/lorenzopalaia/tailwind-hero-patterns/issues"
     },
-    "homepage": "https://github.com/lorenzopalaia/tailwindcss-hero-patterns#readme",
+    "homepage": "https://github.com/lorenzopalaia/tailwind-hero-patterns#readme",
     "devDependencies": {
         "tailwindcss": "^3.0.0"
     }
