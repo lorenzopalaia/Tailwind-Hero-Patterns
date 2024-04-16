@@ -77,14 +77,15 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 [![Product Name Preview][product-preview]](https://example.com)
 
-Full description goes here
+All heropatterns.com patterns as TailwindCSS classes.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
+* [![Node][Node.js]][Node-url]
+* [![TailwindCSS][TailwindCSS]][TailwindCSS-url]
 <!--
-* [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
@@ -100,32 +101,21 @@ Full description goes here
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Install NPM package:
+
    ```sh
-   git clone https://github.com/lorenzopalaia/tailwind-hero-patterns.git
+   npm install tailwind-hero-patterns
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
+
+2. Add the plugin to your `tailwind.config.js` file:
+
    ```js
-   const API_KEY = "ENTER YOUR API";
+   plugins: [
+    require('tailwind-hero-patterns'),
+    ...
+   ]
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -134,20 +124,72 @@ This is an example of how to list things you need to use the software and how to
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Pattern
+
+Follow the schema `pattern-{name}-{color}/{opacity}`, where:
+
+* `name` is the pattern name
+* `color` refers to any possible color of Tailwind's palette
+* `opacity` controls pattern's opacity from 0 to 100%
+
+For example:
+
+```html
+   <div class="pattern-jigsaw-red-500/50">
+    ...
+   </div>
+   ```
+
+### Scale
+
+To scale the pattern follow the schema `pattern-{name}-scale-{percent}`, where:
+
+* `percent` follows the same rules as Tailwind's scaling options
+
+For example:
+
+```html
+   <div class="pattern-jigsaw-scale-50">
+    ...
+   </div>
+   ```
+
+If you prefer to use a custom scaling multiplier then follow the schema `pattern-{name}-scale-[multiplier]`.
+
+For example:
+
+```html
+   <div class="pattern-jigsaw-scale-[1.5]">
+    ...
+   </div>
+   ```
+
+### Full example
+
+The following example will generate a red jigsaw pattern with 50% opacity and scaled by 1.5 multiplier on a blue background:
+
+```html
+   <div class="bg-blue-400 pattern-jigsaw-red-500/50 pattern-jigsaw-scale-[1.5]">
+    ...
+   </div>
+   ```
+
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Patterns
+
+Here's the full list of available patterns. Check [Hero Patterns](https://heropatterns.com) to choose your favourite pattern.
+
+`jigsaw`, `ripples`, `topography`, `texture`, `hub`, `architect`, `voxel`, `crosses`, `graph`, `squares`, `falling-triangles`, `pies`, `hexagons`, `zig-zag-2`, `autumn`, `temple`, `death-star`, `overlapping-hexagons`, `stars`, `bamboo`, `floor`, `cork-screw`, `kiwi`, `lips`, `checkered`, `x-equals`, `bevel-circle`, `brick-wall`, `fancy-rectangles`, `heavy-rain`, `overlapping-circles`, `plus`, `plus-connected`, `volcano-lamp`, `wiggle`, `bubbles`, `cage`, `connections`, `current`, `diagonal-stripes`, `flipped-diamonds`, `houndstooth`, `leaf`, `lines-in-motion`, `moroccan`, `morphing-diamonds`, `rails`, `rain`, `squares-in-squares`, `stripes`, `tic-tac-toe`, `zig-zag`, `aztec`, `bank-note`, `boxes`, `circles-and-squares`, `circuit-board`, `curtain`, `clouds`, `eyes`, `tiles`, `groovy`, `intersecting-circles`, `melt`, `overlapping-diamonds`, `wood`, `pixel`, `polka`, `signal`, `slanted`, `lines-diagonal-right`, `lines-diagonal-left`, `lines-horizontal`, `lines-vertical`, `sprinkles`, `waves`, `hive`, `squiggles`, `triangles`, `grid`, `zebra`, `overcast`, `piano-man`, `dominoes`, `stamp-collection`, `church-on-sunday`, `i-like-food`, `lisbon`, `random-shapes`, `steel-beams`, `anchors-away`, `floating-cogs`, `glamorous`, `skulls`, `wallpaper`, `yyy`, `happy-intersection`
+
 <!-- ROADMAP -->
 
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
+- [ ] Replace current scaling class with `pattern-scale-{percent}` / `pattern-scale-[multiplier]`
 
 See the [open issues](https://github.com/lorenzopalaia/tailwind-hero-patterns/issues) for a full list of proposed features (and known issues).
 
@@ -215,19 +257,7 @@ Project Link: [https://github.com/lorenzopalaia/tailwind-hero-patterns](https://
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/lorenzopalaia
 [product-preview]: repo_assets/preview.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com
+[Node.js]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
+[Node-url]: https://nodejs.org/
+[TailwindCSS]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+[TailwindCSS-url]: https://tailwindcss.com/
