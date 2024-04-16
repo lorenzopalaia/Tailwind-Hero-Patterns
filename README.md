@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <!--
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `tailwind-hero-patterns`, `twitter_handle`, `project_title`, `project_description`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `tailwind-hero-patterns`, `twitter_handle`, `Tailwind Hero Patterns`, `All heropatterns.com patterns as TailwindCSS classes`
 -->
 
 <!-- PROJECT SHIELDS -->
@@ -27,10 +27,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
     <img src="repo_assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Tailwind Hero Patterns</h3>
 
   <p align="center">
-    project_description
+    All heropatterns.com patterns as TailwindCSS classes
     <br />
     <a href="https://github.com/lorenzopalaia/tailwind-hero-patterns"><strong>Explore the docs »</strong></a>
     <br />
