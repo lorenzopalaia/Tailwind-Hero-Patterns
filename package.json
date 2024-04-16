@@ -1,0 +1,32 @@
+{
+    "name": "tailwindcss-hero-patterns",
+    "version": "1.0.0",
+    "description": "All heropatterns.com patterns as TailwindCSS classes",
+    "main": "src/index.js",
+    "source": "src/index.js",
+    "author": {
+        "name": "Lorenzo Palaia",
+        "email": "lorenzopalaia53@gmail.com"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lorenzopalaia/tailwindcss-hero-patterns.git"
+    },
+    "keywords": [
+        "tailwindcss",
+        "hero-patterns",
+        "heropatterns",
+        "patterns",
+        "backgrounds",
+        "css",
+        "tailwind"
+    ],
+    "bugs": {
+        "url": "https://github.com/lorenzopalaia/tailwindcss-hero-patterns/issues"
+    },
+    "homepage": "https://github.com/lorenzopalaia/tailwindcss-hero-patterns#readme",
+    "devDependencies": {
+        "tailwindcss": "^3.0.0"
+    }
+}

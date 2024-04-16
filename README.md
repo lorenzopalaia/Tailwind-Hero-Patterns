@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <!--
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `repo_name`, `twitter_handle`, `project_title`, `project_description`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `tailwind-hero-patterns`, `twitter_handle`, `project_title`, `project_description`
 -->
 
 <!-- PROJECT SHIELDS -->
@@ -23,7 +23,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/lorenzopalaia/repo_name">
+  <a href="https://github.com/lorenzopalaia/tailwind-hero-patterns">
     <img src="repo_assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -32,14 +32,14 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/lorenzopalaia/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/lorenzopalaia/tailwind-hero-patterns"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/lorenzopalaia/repo_name">View Demo</a>
+    <a href="https://github.com/lorenzopalaia/tailwind-hero-patterns">View Demo</a>
     ·
-    <a href="https://github.com/lorenzopalaia/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/lorenzopalaia/tailwind-hero-patterns/issues">Report Bug</a>
     ·
-    <a href="https://github.com/lorenzopalaia/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/lorenzopalaia/tailwind-hero-patterns/issues">Request Feature</a>
   </p>
 </div>
 
@@ -117,7 +117,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/lorenzopalaia/repo_name.git
+   git clone https://github.com/lorenzopalaia/tailwind-hero-patterns.git
    ```
 3. Install NPM packages
    ```sh
@@ -149,7 +149,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
   - [ ] Nested Feature
 
-See the [open issues](https://github.com/lorenzopalaia/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/lorenzopalaia/tailwind-hero-patterns/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,7 +184,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Lorenzo Palaia <!-- - [@twitter_handle](https://twitter.com/twitter_handle)--> - lorenzopalaia53@gmail.com
 
-Project Link: [https://github.com/lorenzopalaia/repo_name](https://github.com/lorenzopalaia/repo_name)
+Project Link: [https://github.com/lorenzopalaia/tailwind-hero-patterns](https://github.com/lorenzopalaia/tailwind-hero-patterns)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,16 +202,16 @@ Project Link: [https://github.com/lorenzopalaia/repo_name](https://github.com/lo
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/lorenzopalaia/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/lorenzopalaia/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/lorenzopalaia/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/lorenzopalaia/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/lorenzopalaia/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/lorenzopalaia/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/lorenzopalaia/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/lorenzopalaia/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/lorenzopalaia/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/lorenzopalaia/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/lorenzopalaia/tailwind-hero-patterns.svg?style=for-the-badge
+[contributors-url]: https://github.com/lorenzopalaia/tailwind-hero-patterns/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/lorenzopalaia/tailwind-hero-patterns.svg?style=for-the-badge
+[forks-url]: https://github.com/lorenzopalaia/tailwind-hero-patterns/network/members
+[stars-shield]: https://img.shields.io/github/stars/lorenzopalaia/tailwind-hero-patterns.svg?style=for-the-badge
+[stars-url]: https://github.com/lorenzopalaia/tailwind-hero-patterns/stargazers
+[issues-shield]: https://img.shields.io/github/issues/lorenzopalaia/tailwind-hero-patterns.svg?style=for-the-badge
+[issues-url]: https://github.com/lorenzopalaia/tailwind-hero-patterns/issues
+[license-shield]: https://img.shields.io/github/license/lorenzopalaia/tailwind-hero-patterns.svg?style=for-the-badge
+[license-url]: https://github.com/lorenzopalaia/tailwind-hero-patterns/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/lorenzopalaia
 [product-preview]: repo_assets/preview.png
