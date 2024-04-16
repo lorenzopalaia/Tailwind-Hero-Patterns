@@ -14,7 +14,7 @@
         "url": "git+https://github.com/lorenzopalaia/tailwind-hero-patterns.git"
     },
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
+        "registry": "https://registry.npmjs.org/"
     },
     "keywords": [
         "tailwindcss",
