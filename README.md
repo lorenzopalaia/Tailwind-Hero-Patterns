@@ -226,7 +226,7 @@ Project Link: [https://github.com/lorenzopalaia/tailwind-hero-patterns](https://
 [issues-url]: https://github.com/lorenzopalaia/tailwind-hero-patterns/issues
 [license-shield]: https://img.shields.io/github/license/lorenzopalaia/tailwind-hero-patterns.svg?style=for-the-badge
 [license-url]: https://github.com/lorenzopalaia/tailwind-hero-patterns/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 [linkedin-url]: https://linkedin.com/in/lorenzopalaia
 [product-preview]: repo_assets/preview.png
 [Node.js]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
