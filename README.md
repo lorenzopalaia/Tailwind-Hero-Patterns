@@ -1,18 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `tailwind-hero-patterns`, `twitter_handle`, `Tailwind Hero Patterns`, `All heropatterns.com patterns as TailwindCSS classes`
--->
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -44,7 +31,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 </div>
 
 <!-- TABLE OF CONTENTS -->
-<!--
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -57,19 +44,24 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li>
+      <a href="#usage">Usage</a>
+      <ul>
+        <li><a href="#pattern">Pattern</a></li>
+        <li><a href="#scale">Scale</a></li>
+        <li><a href="#full-example">Full Example</a></li>
+      </ul>  
+    </li>
+    <li><a href="#patterns">Patterns</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
--->
 
 <!-- ABOUT THE PROJECT -->
 
@@ -83,17 +75,9 @@ All heropatterns.com patterns as TailwindCSS classes.
 
 ### Built With
 
-* [![Node][Node.js]][Node-url]
-* [![TailwindCSS][TailwindCSS]][TailwindCSS-url]
-<!--
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
--->
+[![Node][Node.js]][Node-url]
+<br />
+[![TailwindCSS][TailwindCSS]][TailwindCSS-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,7 +148,7 @@ For example:
    </div>
    ```
 
-### Full example
+### Full Example
 
 The following example will generate a red jigsaw pattern with 50% opacity and scaled by 1.5 multiplier on a blue background:
 
@@ -224,25 +208,13 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Lorenzo Palaia <!-- - [@twitter_handle](https://twitter.com/twitter_handle)--> - lorenzopalaia53@gmail.com
+Lorenzo Palaia - lorenzopalaia53@gmail.com
 
 Project Link: [https://github.com/lorenzopalaia/tailwind-hero-patterns](https://github.com/lorenzopalaia/tailwind-hero-patterns)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGMENTS -->
-<!--
-## Acknowledgments
-
-- []()
-- []()
-- []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
-
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/lorenzopalaia/tailwind-hero-patterns.svg?style=for-the-badge
 [contributors-url]: https://github.com/lorenzopalaia/tailwind-hero-patterns/graphs/contributors
