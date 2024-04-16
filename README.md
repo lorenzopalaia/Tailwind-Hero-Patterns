@@ -90,7 +90,7 @@ All heropatterns.com patterns as TailwindCSS classes.
 1. Install NPM package:
 
    ```sh
-   npm install tailwind-hero-patterns
+   npm install @lorenzopalaia/tailwind-hero-patterns
    ```
 
 2. Add the plugin to your `tailwind.config.js` file:

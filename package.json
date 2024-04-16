@@ -1,5 +1,5 @@
 {
-    "name": "tailwind-hero-patterns",
+    "name": "@lorenzopalaia/tailwind-hero-patterns",
     "version": "1.0.0",
     "description": "All heropatterns.com patterns as TailwindCSS classes",
     "main": "src/index.js",
