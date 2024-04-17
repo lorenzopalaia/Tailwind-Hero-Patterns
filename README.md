@@ -97,7 +97,7 @@ All heropatterns.com patterns as TailwindCSS classes.
 
    ```js
    plugins: [
-    require('tailwind-hero-patterns'),
+    require('@lorenzopalaia/tailwind-hero-patterns'),
     ...
    ]
    ```
