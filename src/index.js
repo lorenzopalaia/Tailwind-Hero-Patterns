@@ -1,21 +1,24 @@
-const patternsFile = require("./patterns");
+const patterns = require("./patterns");
 const plugin = require("tailwindcss/plugin");
-const {
-  default: flattenColorPalette,
-} = require("tailwindcss/lib/util/flattenColorPalette");
 
-const generatePatternUtilities = ({ matchUtilities, addUtilities, theme }) => {
-  const patterns = patternsFile;
+const flattenColorPaletteModule = require("tailwindcss/lib/util/flattenColorPalette");
+const flattenColorPalette =
+  (flattenColorPaletteModule && flattenColorPaletteModule.default) ||
+  flattenColorPaletteModule;
 
-  const basePatternUtilities = {};
-  patterns.forEach((pattern) => {
-    basePatternUtilities[`.pattern-${pattern.name}`] = {
-      backgroundImage: pattern.svg,
-    };
-  });
+const patternsPlugin = plugin(({ matchUtilities, addUtilities, theme }) => {
+  const basePatternUtilities = Object.fromEntries(
+    patterns.map((pattern) => [
+      `.pattern-${pattern.name}`,
+      { backgroundImage: pattern.svg },
+    ])
+  );
+
   addUtilities(basePatternUtilities);
 
-  patterns.map((pattern) => {
+  const colors = flattenColorPalette(theme("colors") ?? {});
+
+  patterns.forEach((pattern) => {
     matchUtilities(
       {
         [`pattern-${pattern.name}`]: (value) => ({
@@ -24,27 +27,32 @@ const generatePatternUtilities = ({ matchUtilities, addUtilities, theme }) => {
         }),
       },
       {
-        values: flattenColorPalette(theme("colors")),
+        values: colors,
         type: "color",
       }
     );
-  });
 
-  patterns.map((pattern) => {
     matchUtilities(
       {
-        [`pattern-${pattern.name}-scale`]: (value) => ({
-          backgroundSize: `${value * pattern.size.width}px ${value * pattern.size.height}px`,
-        }),
+        [`pattern-${pattern.name}-scale`]: (value) => {
+          const numericValue = Number(value);
+          const resolvedValue = Number.isFinite(numericValue)
+            ? numericValue
+            : 1;
+
+          return {
+            backgroundSize: `${resolvedValue * pattern.size.width}px ${
+              resolvedValue * pattern.size.height
+            }px`,
+          };
+        },
       },
       {
-        values: theme("scale"),
+        values: theme("scale") ?? {},
         type: "number",
       }
     );
   });
-};
-
-const patternsPlugin = plugin(generatePatternUtilities);
+});
 
 module.exports = patternsPlugin;

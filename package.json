@@ -1,35 +1,35 @@
 {
-    "name": "@lorenzopalaia/tailwind-hero-patterns",
-    "version": "1.0.1",
-    "description": "All heropatterns.com patterns as TailwindCSS classes",
-    "main": "src/index.js",
-    "source": "src/index.js",
-    "author": {
-        "name": "Lorenzo Palaia",
-        "email": "lorenzopalaia53@gmail.com"
-    },
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/lorenzopalaia/tailwind-hero-patterns.git"
-    },
-    "publishConfig": {
-        "registry": "https://registry.npmjs.org/"
-    },
-    "keywords": [
-        "tailwindcss",
-        "hero-patterns",
-        "heropatterns",
-        "patterns",
-        "backgrounds",
-        "css",
-        "tailwind"
-    ],
-    "bugs": {
-        "url": "https://github.com/lorenzopalaia/tailwind-hero-patterns/issues"
-    },
-    "homepage": "https://github.com/lorenzopalaia/tailwind-hero-patterns#readme",
-    "devDependencies": {
-        "tailwindcss": "^3.0.0"
-    }
+  "name": "@lorenzopalaia/tailwind-hero-patterns",
+  "version": "1.1.0",
+  "description": "All heropatterns.com patterns as TailwindCSS classes",
+  "main": "src/index.js",
+  "source": "src/index.js",
+  "author": {
+    "name": "Lorenzo Palaia",
+    "email": "lorenzopalaia53@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorenzopalaia/tailwind-hero-patterns.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "tailwindcss",
+    "hero-patterns",
+    "heropatterns",
+    "patterns",
+    "backgrounds",
+    "css",
+    "tailwind"
+  ],
+  "bugs": {
+    "url": "https://github.com/lorenzopalaia/tailwind-hero-patterns/issues"
+  },
+  "homepage": "https://github.com/lorenzopalaia/tailwind-hero-patterns#readme",
+  "devDependencies": {
+    "tailwindcss": "^4.1.17"
+  }
 }
